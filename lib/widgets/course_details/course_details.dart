@@ -5,7 +5,7 @@ class CourseDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: 500,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

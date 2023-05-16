@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../centered_view/center_view.dart';
+import '../../widgets/call_to_action/call_to_action.dart';
 import '../../widgets/course_details/course_details.dart';
 import '../../widgets/navigation_bar/navigationbar.dart';
 
@@ -17,7 +18,15 @@ class Homeview extends StatelessWidget {
             const Naviagtionbars(),
             Expanded(
                 child: Row(
-              children: const [CourseDetails()],
+              children: const [
+                CourseDetails(),
+                Expanded(
+                    child: Center(
+                  child: CallToAction(
+                    title: "Join Course",
+                  ),
+                ))
+              ],
             ))
           ],
         ),
