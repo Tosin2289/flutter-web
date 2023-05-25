@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'website_one/views/home/homeview.dart';
+import 'website_two/constant.dart';
+import 'website_two/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        title: 'Code Blast',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primaryColor: KPrimaryColor,
         ),
-        home: const Homeview());
+        home: const Homepage2());
   }
 }
