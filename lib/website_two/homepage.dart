@@ -20,7 +20,7 @@ class Homepage2 extends StatelessWidget {
                 ),
                 fit: BoxFit.cover)),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          padding: const EdgeInsets.symmetric(horizontal: 21.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [

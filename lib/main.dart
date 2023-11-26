@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: KPrimaryColor,
         ),
-        home: const Homepage2());
+        home: const Homeview());
   }
 }
